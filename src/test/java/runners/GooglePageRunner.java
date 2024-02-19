@@ -22,7 +22,7 @@ import io.cucumber.testng.CucumberOptions;
 		)
 		//by default dryRun is false
 public class GooglePageRunner extends AbstractTestNGCucumberTests{
-	@DataProvider(parallel=true)
+	@DataProvider(parallel=true)//to run scenerios in parallel
 	public Object[][] scenarios(){
 		return super.scenarios();
 	}

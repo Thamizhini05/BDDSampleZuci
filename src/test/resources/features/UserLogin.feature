@@ -1,5 +1,6 @@
 Feature: User Login Function
- 
+#data table if u pass data at step level,for each step we have to get the data and pass it
+#(get as arugument and processing the data and it is used)
   #normal scenario creation
   
 #Scenario: Valid Login
@@ -20,6 +21,7 @@ Feature: User Login Function
 #Then Should display Success Msg
 
 # here, scenario outline is used where multiple users can be given with the help of "Examples"
+#(approach used by "scenario outline and examples" is "data driven")
 
 #Scenario Outline: Valid Login
 #Given User in on Login Page
